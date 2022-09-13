@@ -33,7 +33,9 @@ body {
   text-decoration: none;
   color: #ff0000;
 }
-
+.fa-envelope{
+  color: white;
+}
 .fa-facebook {
   padding: 8px 11px;
   color: white;
