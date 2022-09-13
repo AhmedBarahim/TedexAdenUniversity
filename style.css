@@ -1,17 +1,58 @@
-
-
-
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 80%, rgba(244,40,40,1) 100%);
-  font-family: "Cairo" , sans-serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 80%, rgba(244, 40, 40, 1) 100%);
+  font-family: "Cairo", sans-serif;
 }
 
+/* .center-verticaly {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
 
+} */
 .cover-container {
   max-width: 42em;
 }
 
 
+.fa {
+  padding: 8px;
+  /* font-size: 30px; */
+  /* width: 30px; */
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  border-radius: 50%;
+  background-color: #999999e7;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.fa-facebook {
+  padding: 8px 11px;
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  padding: 8px 9px;
+  color: white;
+}
+
+.fa-youtube {
+  padding: 8px 9px;
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
