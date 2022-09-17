@@ -23,8 +23,9 @@
 </head>
 
 <body>
+    <div id="loader"></div>
     <header>
-        <nav id="navbar-example2" class="navbar navbar-expand-lg border-bottom border-white pb-0 fixed-top">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg border-bottom border-white pb-0">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo.png" alt="شعار تيديكس" class="img-fluid">
@@ -138,9 +139,7 @@
             <a href="https://www.instagram.com/tedxadenuniv/" target="_blank" class="fa fa-instagram"></a>
             </div>
         </footer>
-    
-    </div>
-    
+    </div>   
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
@@ -156,8 +155,20 @@
         })
         wow.init();
     </script>
+<script>
+    
+    var loader = document.getElementById('loader');
+    // setTimeout(t, 5000)
 
-
+    // function t() {
+        window.addEventListener('load' , function() {
+        loader.style.display = 'none';
+        document.querySelector('body').classList.toggle('animate-bottom')
+        document.querySelector('.navbar').classList.toggle('fixed-top')
+    })
+// }
+    
+</script>
 
 </body>
 
