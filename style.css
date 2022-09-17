@@ -79,6 +79,12 @@ body {
     position: fixed;
     z-index: 100;
   }
+
+  @media (max-width: 768px) {
+    #loader {
+        background-position-y: 40vw;
+      }
+  }
   
   /* #loader {
     position: absolute;
