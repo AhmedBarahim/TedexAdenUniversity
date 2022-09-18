@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    position: relative;
     font-family: AR-Font, sans-serif;
     color: #fff;
     padding: 0;
